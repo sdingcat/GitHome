@@ -77,11 +77,8 @@ namespace Homework6
         //删除所有明细
         public void DesOrderDetails()
         {
-            foreach (var aimOrder in orderDetails)
-            {
-                allPrise -= aimOrder.allPrice;
-                orderDetails.Remove(aimOrder);
-            }
+            allPrise = 0;
+            orderDetails = null;
         }
     }
 
@@ -137,11 +134,7 @@ namespace Homework6
         //删除所有订单
         public void DesOrder()
         {
-            foreach (var aimOrder in orders)
-            {
-                aimOrder.DesOrderDetails();
-                orders.Remove(aimOrder);
-            }
+            orders = null;
         }
         //生成XML文件
         public void ToXML()
