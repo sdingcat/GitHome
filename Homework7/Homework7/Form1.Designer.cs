@@ -123,6 +123,7 @@
             this.button6.TabIndex = 3;
             this.button6.Text = "删除订单（客户）";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // panel7
             // 
@@ -142,6 +143,7 @@
             this.button5.TabIndex = 2;
             this.button5.Text = "查找订单（客户）";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // panel6
             // 
@@ -161,6 +163,7 @@
             this.button4.TabIndex = 1;
             this.button4.Text = "所有订单";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // panel5
             // 
@@ -180,6 +183,7 @@
             this.button3.TabIndex = 2;
             this.button3.Text = "删除订单（金额）";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // panel4
             // 
@@ -199,6 +203,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "查找订单（金额）";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // panel3
             // 
